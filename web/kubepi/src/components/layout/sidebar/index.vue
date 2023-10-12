@@ -29,7 +29,7 @@ import SidebarItem from "@/components/layout/sidebar/SidebarItem"
 
 export default {
   name: "Sidebar",
-  components: { SidebarItem, Logo },
+  components: { SidebarItem},
   data () {
     return {}
   },
