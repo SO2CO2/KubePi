@@ -23,7 +23,6 @@
 
 <script>
 import {mapGetters} from "vuex"
-import Logo from "@/components/layout/sidebar/Logo"
 import SidebarItem from "@/components/layout/sidebar/SidebarItem"
 
 export default {
