@@ -14,7 +14,7 @@
               <span>Secret:{{ otp.secret }}</span>
             </div>
           </div>
-          <div style="width: 100%;margin-left: 25%" v-if="mfaInit">
+          <div style="width: 50%;margin-left: 25%" v-if="mfaInit">
             <el-form>
               <el-form-item class="login">
                 <el-input v-model="mfaCredential.code"></el-input>
@@ -26,7 +26,7 @@
               </el-button>
             </div>
           </div>
-          <div style="text-align: center;width: 100%;margin-top: 15%;margin-left: 25%" v-if="!mfaInit">
+          <div style="text-align: center;width: 50%;margin-top: 15%;margin-left: 25%" v-if="!mfaInit">
             <div>
               <div>
                 <span>{{ $t("commons.login.mfa_login_helper") }}</span>
@@ -47,7 +47,7 @@
     </div>
     <div class="login-container" v-if="!mfaPage">
       <el-row type="flex" v-loading="loading">
-        <el-col :span="12">
+        <el-col :span="24">
           <el-form :model="form" :rules="rules" ref="form" size="default">
             <div class="login-title">
               {{ systemName }}
