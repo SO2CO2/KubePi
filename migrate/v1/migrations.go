@@ -125,7 +125,7 @@ var CreateAdministrator = migrations.Migration{
 			},
 			IsAdmin:  true,
 			NickName: "Administrator",
-			Email:    "support@fit2cloud.com",
+			Email:    "example@example.com",
 			Language: "zh-CN",
 			Authenticate: v1User.Authenticate{
 				Password: string(hash),
