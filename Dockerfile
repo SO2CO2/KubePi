@@ -16,7 +16,8 @@ RUN rm -fr web
 
 FROM golang:1.16 as stage-bin-build
 
-ENV GOPROXY="https://goproxy.cn,direct"
+#ENV GOPROXY="https://goproxy.cn,direct"
+ENV GOPROXY="https://goproxy.io,direct"
 
 ENV CGO_ENABLED=0
 
