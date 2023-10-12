@@ -16,7 +16,7 @@
       </el-menu>
     </el-scrollbar>
     <div style="float:left;margin-left: 50px">
-      <el-link type="info" @click="openApi"> <span style="font-size: 16px"> KubePi API V1.0</span></el-link>
+      <el-link type="info" @click="openApi"> <span style="font-size: 16px">API V1.0</span></el-link>
     </div>
   </div>
 </template>
