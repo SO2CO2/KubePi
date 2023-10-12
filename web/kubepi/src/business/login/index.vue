@@ -73,9 +73,6 @@
             </div>
           </el-form>
         </el-col>
-        <el-col :span="12">
-          <div class="login-image"></div>
-        </el-col>
       </el-row>
     </div>
   </div>
