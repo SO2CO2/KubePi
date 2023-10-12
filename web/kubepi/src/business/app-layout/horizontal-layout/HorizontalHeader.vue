@@ -4,7 +4,6 @@
       <sidebar-toggle-button/>
     </div>
     <div class="header-right">
-      <help />
       <language-switch style="margin-left: 20px"></language-switch>
       <user-setting style="margin-left: 20px"></user-setting>
     </div>
@@ -15,11 +14,11 @@
 import SidebarToggleButton from "@/components/layout/sidebar/SidebarToggleButton"
 import UserSetting from "@/business/app-layout/header-components/UserSetting"
 import LanguageSwitch from "@/business/app-layout/header-components/LanguageSwitch";
-import Help from "@/business/app-layout/header-components/Help";
+//import Help from "@/business/app-layout/header-components/Help";
 
 export default {
   name: "HorizontalHeader",
-  components: {LanguageSwitch, UserSetting, SidebarToggleButton, Help}
+  components: {LanguageSwitch, UserSetting, SidebarToggleButton}
 }
 </script>
 
