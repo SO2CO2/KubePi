@@ -1,5 +1,6 @@
 <template>
-  <div class="sidebar-logo-container" :class="{'collapse':collapse}">
+  <div/>
+  <!-- <div class="sidebar-logo-container" :class="{'collapse':collapse}">
     <transition name="sidebar-logo-fade" mode="out-in">
       <router-link v-if="collapse" key="collapse" class="sidebar-logo-link" to="/">
         <img v-if="collapseLogo" :src="collapseLogo" class="sidebar-logo" alt="Sidebar Logo">
@@ -8,7 +9,7 @@
         <img v-if="logo" :src="logo" class="sidebar-logo" alt="Sidebar Logo">
       </router-link>
     </transition>
-  </div>
+  </div> -->
 </template>
 
 <script>

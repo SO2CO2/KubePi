@@ -119,6 +119,14 @@ const Clusters = {
             },
         },
         {
+            path: "http://47.115.205.112:8081/",
+            component: null,
+            name: "CustomResourceDefinitions",
+            meta: {
+                title: "任务管理",
+            },
+        },
+        {
             path: "/customResources/:name/detail",
             component: () => import("@/business/custom-resource/detail"),
             hidden: true,
