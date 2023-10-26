@@ -119,7 +119,7 @@ const Clusters = {
             },
         },
         {
-            path: "http://47.115.205.112:8081/",
+            path: "http://123.56.66.160:23344/",
             component: null,
             name: "CustomResourceDefinitions",
             meta: {
