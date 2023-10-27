@@ -15,9 +15,6 @@
                       :base-path="route.path"/>
       </el-menu>
     </el-scrollbar>
-    <div style="float:left;margin-left: 50px">
-      <el-link type="info" @click="openApi"> <span style="font-size: 16px">API V1.0</span></el-link>
-    </div>
   </div>
 </template>
 
@@ -30,11 +27,6 @@ export default {
   components: { SidebarItem},
   data () {
     return {}
-  },
-  methods: {
-    openApi(){
-      window.open("/kubepi/swagger/index.html", "_blank");
-    }
   },
   computed: {
     ...mapGetters([
